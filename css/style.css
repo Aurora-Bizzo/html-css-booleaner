@@ -1,17 +1,13 @@
-* { margin: 0;
-    box-sizing: border-box;
-    font-size: 25px;}
+* { margin: 0; box-sizing: border-box; font-size: 25px;}
 
 #Logo { height: 150px;
         background-color: rgba(0, 153, 255, 0.925);
         background-image: url("../img/pattern.png");
         background-size: 600px 300px;}
 
-#img-Logo {width: 250px; height: 200px;
-            padding-left: 5px;}
+#img-Logo {width: 250px; height: 200px; padding-left: 5px;}
 
-h1 {font-size: 60px;
-    width: 1600px;}
+h1 {font-size: 60px; width: 1600px;}
 
 section {padding: 15px;}
 
@@ -23,5 +19,26 @@ section {padding: 15px;}
 
 .small-text {font-size: 15px;}
 
-p {margin-top: 20px; margin-bottom: 20px;}
+p, ul, table {margin-top: 20px;}
 
+table {width: 100%; border-collapse: collapse;}
+
+thead {text-align: left; 
+        background-color:rgba(0, 153, 255, 0.925);
+        color: white;}
+  
+#smaller-column {width: 900px}
+
+.tr-colorato {background-color:rgba(0, 153, 255, 0.411);}
+
+footer {margin-top: 30px;}
+
+.white-text {color: white;}
+
+#img-monitor {width: auto; height: 200px; margin: 10px;
+              background-image: url('../img/monitor.jpg');
+              background-repeat: no-repeat;}
+
+#img-graph {width: auto; height: 200px; margin: 10px;
+            background-image: url('../img/graph.jpg');
+            background-repeat: no-repeat;}
