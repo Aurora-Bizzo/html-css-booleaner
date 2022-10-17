@@ -1,11 +1,27 @@
-* { padding: 0;
-    margin: 0;
-    box-sizing: border-box;}
+* { margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;}
 
-#Logo {background-color: blue;
-height: 60px; width: auto;}
+#Logo { height: 150px;
+        background-color: rgba(0, 153, 255, 0.925);
+        background-image: url("../img/pattern.png");
+        background-size: 600px 300px;}
 
-#Logo-img {
-    width: fit-content;
-    height: fit-content;
-}
+#img-Logo {width: 250px; height: 200px;
+            padding-left: 5px;}
+
+h1 {font-size: 60px;
+    width: 1600px;}
+
+section {padding: 15px;}
+
+.img-central {width: 925px; height:600px; margin-left: 5px;}
+
+.gray-text {color: gray;}
+
+#blue {color: rgba(0, 153, 255, 0.925); background: none;}
+
+.small-text {font-size: 15px;}
+
+p {margin-top: 20px; margin-bottom: 20px;}
+
