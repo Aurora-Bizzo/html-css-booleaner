@@ -1,0 +1,11 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+#Logo {background-color: blue;
+height: 60px; width: auto;}
+
+#Logo-img {
+    width: fit-content;
+    height: fit-content;
+}
